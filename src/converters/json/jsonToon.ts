@@ -1,7 +1,7 @@
-import { IConverter } from "@/converters/types";
-import { decode, encode } from "@toon-format/toon";
+import { decode, encode } from "punycode";
+import { IConverter } from "../types";
 
-export class JsonConverter implements IConverter {
+export default class JsonConverter implements IConverter {
   /**
    * Convert JSON → TOON
    */

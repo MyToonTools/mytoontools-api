@@ -1,4 +1,4 @@
-import { JsonConverter } from "@/converters/json/json.converter";
+import JsonConverter from "../converters/json/jsonToon";
 import { Router } from "express";
 
 
